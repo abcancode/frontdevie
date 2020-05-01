@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Home | FrontDevie</title>
+    <title> FrontDevie | Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Sansita:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>

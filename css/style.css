@@ -16,8 +16,8 @@
     --fs-h1: 1.8em;
     --fs-h2: 1.7em;
     */
-    --fs-h3: 1.4em;
-     
+
+    --fs-h3: 1.4em;     
     --fs-p: .9em;
     
     --clr-dark: #2F4454;
@@ -39,7 +39,8 @@ body{
     justify-content: space-between;
     position: fixed;
     top: 0;
-    box-shadow: 1px 1px 5px 1px var(--clr-accent); 
+    box-shadow: 1px 1px 5px 1px var(--clr-accent);
+    background-color: var(--clr-dark);
 }
 
 /* Navigation */

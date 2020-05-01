@@ -7,7 +7,6 @@
     <title> FrontDevie | Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Sansita:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/login.css">
-
     <script src="js/script.js"></script>
 </head>
 <body>
