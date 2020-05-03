@@ -23,7 +23,7 @@
         <div class="interact_image"></div>
         <div class="interact_texts">
             <h2 class="interacting"> Interact </h2>
-            <p class="interact_words">At FrontDevie, everyone is an active learner. So, you get a chance to interact with fellow students as well as instructors as you continue your learning process. You can ask questions on any topic or area that seems challenging or confusing at any point you get to. A dedicated team of experts are available to make the learning process a smooth one for you.</p>
+            <p class="interact_words">At FrontDevie, everyone is an active learner. So, you get a chance to interact with fellow students as well as instructors as you continue with the learning process. You can ask questions on any topic or area that seems challenging or confusing at any point you get to. A dedicated team of experts are available to make the learning process a smooth one for you.</p>
         </div>
         </div>    
     </section>

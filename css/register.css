@@ -43,6 +43,10 @@ body{
     background-color: var(--clr-dark);
 }
 
+.branded {
+    color: var(--clr-light);
+}
+
 /* Navigation */
 
 .navbar {

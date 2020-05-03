@@ -35,6 +35,6 @@
                 <a class="nav-link" href="logout.php">Logout</a>
             <?php } ?>
           
-        </nav>
+    </nav>
        
-    </div>
+</div>

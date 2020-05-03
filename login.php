@@ -13,7 +13,7 @@ if(isset($_SESSION['loggedIn']) &&  ($_SESSION['loggedIn'])){
 
     <div class="centered_title">
 
-        <h3>FrontDevie</h3>
+        <h3 class="branded">FrontDevie</h3>
 
     </div>
 
