@@ -22,7 +22,7 @@ if(isset($_SESSION['loggedIn']) && !empty($_SESSION['loggedIn'])){
 
             <h3>Create Your FrontDevie Account</h3>
 
-            <p>Welcome to Class, Let's learn Together!</p>
+            <p>Please create your FrontDevie account</p>
         
         </div>
 
@@ -160,4 +160,3 @@ if(isset($_SESSION['loggedIn']) && !empty($_SESSION['loggedIn'])){
 
 </div>
 
-<?php include_once('lib/footer.php'); ?>

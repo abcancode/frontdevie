@@ -98,7 +98,7 @@ body{
 
 .container_form {
     max-width: 28em;
-    height: 62em;
+    height: 30em;
     background-color:var(--clr-light);
     border-top-right-radius: 1.3em;
     border-top-left-radius: 1.3em;
@@ -147,7 +147,6 @@ select {
 
 
 ::placeholder {
-    
     font-family: var(--ff-secondary);
   }
 

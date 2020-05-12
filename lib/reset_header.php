@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> FrontDevie | Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Sansita:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/reset.css">
 
     <script src="js/script.js"></script>
 </head>
@@ -31,7 +31,7 @@
             <?php }else{ ?>
                 
                 <!--<a class="p-2 text-dark" href="dashboard.php">Dashboard</a> -->               
-                <a class="nav-link" href="reset.php">Reset Password</a>
+                <!--<a class="nav-link" href="reset.php">Reset Password</a>-->
                 <a class="nav-link" href="logout.php">Logout</a>
             <?php } ?>
           

@@ -3,6 +3,10 @@
         
     </p>
 
+    <!-- Preloader -->
+
+    <div class="spinner"></div>
+
     <!-- Cover Section -->
 
     <section class="cover">

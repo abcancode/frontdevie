@@ -66,4 +66,5 @@ if(isset($_SESSION['loggedIn']) &&  ($_SESSION['loggedIn'])){
             
 </div>
 
-<?php include_once('lib/footer.php'); ?>
+
+

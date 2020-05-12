@@ -37,8 +37,6 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
     box-shadow: 1px 1px 5px 1px var(--clr-accent);
     background-color: var(--clr-dark);
 }
@@ -124,10 +122,12 @@ input {
     border: 1px solid var(--clr-light);
     margin-top: 7px;
     outline: none;
+    font-family: var(--ff-secondary);
 }  
 
 input[type=text], [type=email], [type=password] {
     margin-bottom: 20px;
+    font-family: inherit;
 }
 
 select {
@@ -208,3 +208,4 @@ p {
 .forgot:hover {
     color: #A2A597;
 }
+

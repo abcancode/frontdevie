@@ -11,5 +11,5 @@ if(!isset($_SESSION['loggedIn'])){
 
     Welcome, <?php echo $_SESSION['first_name'] ?>, You are logged in as (<?php echo $_SESSION['level'] ?>), and your ID is <?php echo $_SESSION['loggedIn'] ?>
 
-
+    Welcome to Class, Let's learn Together!
 
