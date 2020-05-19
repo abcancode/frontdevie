@@ -10,14 +10,16 @@
     <!-- Cover Section -->
 
     <section class="cover">
-        <h1 class="caption"> Welcome to FrontDevie</h1>
-        <p class="lead">Learning and Building Together!</p>
-        <p class="lead">Come just as You are, it is completely made for You!</p>
-       
-        <p class="lead">
-            <button class="btn"><a class="btn-lnk" href="login.php">Login</a></button>
-            <button class="btn"><a class="btn-lnk" href="register.php">Register</a></button>            
-        </p>
+        <div class="cover-content">
+            <h1 class="caption"> Welcome to FrontDevie</h1>
+            <p class="lead">Learning and Building Together!</p>
+            <p class="lead">Come just as You are, it is completely made for You!</p>
+        
+            <p class="lead">
+                <button class="btn"><a class="btn-lnk" href="login.php">Login</a></button>
+                <button class="btn"><a class="btn-lnk" href="register.php">Register</a></button>            
+            </p>
+        </div>
     </section>
 
     <!-- Interact Section -->
