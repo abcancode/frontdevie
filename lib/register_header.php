@@ -21,10 +21,10 @@
             
             <?php if(!isset($_SESSION['loggedIn'])){ ?>
                 
-
+                <!--
                 <a class="nav-link" href="#interact">Interact</a>
                 <a class="nav-link" href="#learn">Learn</a>
-                <a class="nav-link" href="#build">Build</a>
+                <a class="nav-link" href="#build">Build</a>-->
                 <!--<a class="btn btn-success" href="admin.php">Admin</a>-->
                 <!-- <a class="p-2 text-dark" href="forgot.php">Forgot Password</a> -->
             <?php }else{ ?>

@@ -48,7 +48,11 @@ if(!isset($_SESSION['loggedIn'])){
 
                 <h4>Welcome Message</h4>
 
-                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You should know that you're IMPORTANT and we've got you covered throughout the course of this program. We expect that you'll put in work and make sure you get the very best out of the program. </p>
+                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You will recieve a mail shortly in the email you provided while registering for next steps, kindly check for that. The program would last for 12weeks and we expect that you'll put in work and so you get the very best out of the program. Please make payment to the account details below and ensure you keep a copy of your reciept.<br />
+                
+                Account name: Jonas Ikenna<br />
+                Account number: 3085054957<br />
+                Bank: First Bank</p>
             
             </div>
 
@@ -73,6 +77,7 @@ if(!isset($_SESSION['loggedIn'])){
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
+                        <li>React</li>
                     </ul>
                 
                 </div>
@@ -91,7 +96,7 @@ if(!isset($_SESSION['loggedIn'])){
 
                 <h4>Tasks</h4>
 
-                <p>There are no tasks just yet. Please check back</p>
+                <p class="task_content">There are no tasks just yet. Please check back!</p>
             
             </div>
 
