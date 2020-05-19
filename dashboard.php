@@ -24,9 +24,10 @@ if(!isset($_SESSION['loggedIn'])){
 
                     <ul>
 
-                        <li>Your Name: </li>
-                        <li>Level: </li>
-                        <li>Current Level:</li>
+                        <li>Full Name: <?php echo $_SESSION['first_name'] ." ". $_SESSION['last_name'] ?> </li>
+                        <li>Email: <?php echo $_SESSION['email'] ?></li>
+                        <li>Current Level: <?php echo $_SESSION['level'] ?></li>
+                       
                         <li></li>
 
                     </ul>
@@ -47,7 +48,7 @@ if(!isset($_SESSION['loggedIn'])){
 
                 <h4>Welcome Message</h4>
 
-                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You should know that you're IMPORTANT and we've got you throughout the course of this program. </p>
+                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You should know that you're IMPORTANT and we've got you covered throughout the course of this program. We expect that you'll put in work and make sure you get the very best out of the program. </p>
             
             </div>
 
@@ -71,6 +72,7 @@ if(!isset($_SESSION['loggedIn'])){
                         <li>Cascading Stylesheet(CSS)</li>
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
+                        <li>jQuery</li>
                     </ul>
                 
                 </div>
