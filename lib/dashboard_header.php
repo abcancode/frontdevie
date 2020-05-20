@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> FrontDevie | Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/dashboard.css" type="text/css">
     <script src="https://kit.fontawesome.com/836bbe789f.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>

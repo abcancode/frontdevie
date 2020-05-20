@@ -9,8 +9,8 @@
 
 :root {
 
-    --ff-primary: 'Lato', sans-serif;
-    --ff-secondary: 'Open Sans', sans-serif;
+    --ff-secondary: 'Kurale', serif;
+    --ff-primary: 'Poppins', sans-serif;
     /*
     --fs-h1: 1.8em;
     --fs-h2: 1.7em;
@@ -95,6 +95,7 @@ body{
     margin-bottom: 25px;
     display: block;
     animation: fadeIn 2s ease;
+    
 }
 @keyframes fadeIn{
     0%{
@@ -118,7 +119,7 @@ li {
 }
 
 .font-awesome {
-    padding-top: 30px;
+    padding-top: 20px;
     margin: 0 auto;
     text-align: center;
 }
@@ -133,7 +134,7 @@ li {
 
 h4 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -159,4 +160,5 @@ span {
 
 .task_content {
     text-align: center;
+    margin-top: 100px;
 }
