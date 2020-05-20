@@ -14,7 +14,7 @@
 
 <div class="header">
     <div class="brand">
-        <h3><a href="index.php" class="logo">Dashboard</a></h3>
+        <h3><a class="logo">Dashboard</a></h3>
     </div>
     
     <nav class="navbar">
