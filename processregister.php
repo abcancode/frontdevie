@@ -46,7 +46,7 @@ if($errorCount > 0){
 
 
   
-    $newUserId = $countAllUsers-1;
+    $newUserId = $countAllUsers - 1;
 
     $userObject = [
         'id' => $newUserId,

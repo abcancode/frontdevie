@@ -20,7 +20,7 @@ if(isset($_SESSION['loggedIn']) && !empty($_SESSION['loggedIn'])){
 
         <div class="centered_content">
 
-            <h3>Create Your FrontDevie Account</h3>
+            <h3 class="headings">Create Your FrontDevie Account</h3>
 
             <p>Please create your FrontDevie account</p>
         
@@ -153,7 +153,11 @@ if(isset($_SESSION['loggedIn']) && !empty($_SESSION['loggedIn'])){
 
         <div class="login_contents">
             <p>
-                        <a class="forgot" href="forgot.php">Forgot Password</a><br />
+                        <a class="forgot" href="forgot.php">Forgot Password</a>
+            
+            </p>
+
+            <p>
                         <a class="login" href="login.php">Already have an account? Login</a>
             </p>
         </div>

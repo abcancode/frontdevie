@@ -26,9 +26,8 @@ if(!isset($_SESSION['loggedIn'])){
 
                         <li>Full Name: <?php echo $_SESSION['first_name'] ." ". $_SESSION['last_name'] ?> </li>
                         <li>Email: <?php echo $_SESSION['email'] ?></li>
-                        <li>Current Level: <?php echo $_SESSION['level'] ?></li>
-                       
-                        <li></li>
+                        <li>Current Level: <?php echo $_SESSION['level'] ?></li>                       
+                        <li>ID: <?php echo $_SESSION['loggedIn'] ?> </li>
 
                     </ul>
 
@@ -48,11 +47,9 @@ if(!isset($_SESSION['loggedIn'])){
 
                 <h4>Welcome Message</h4>
 
-                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You will recieve a mail shortly in the email you provided while registering for next steps, kindly check for that. The program would last for 12 weeks and we expect that you'll put in work and so you get the very best out of the program. Please make payment to the account details below and ensure you keep a copy of your reciept.<br />
+                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You will recieve a mail shortly in the email you provided while registering for next steps, kindly check for that. The program would last for 12 weeks and we expect that you'll put in work so you can get the very best out of the program. Please make payment to the account details below and ensure you keep a copy of your reciept.<br />
                 
-                <!--Account name: Jonas Ikenna<br />
-                Account number: 3085054957<br />
-                Bank: First Bank--></p>
+                </p>
             
             </div>
 
@@ -71,13 +68,14 @@ if(!isset($_SESSION['loggedIn'])){
                     <h4>Course Outline</h4>
 
                     <ul>
+
                         <li>GIT/GITHUB</li>
                         <li>Hypertext Markup Language(HTML)</li>
                         <li>Cascading Stylesheet(CSS)</li>
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
-                        <li>React</li>
+                        
                     </ul>
                 
                 </div>

@@ -69,6 +69,13 @@ body{
     color: var(--clr-accent);
 }
 
+@media only screen and (max-width: 600px){
+    #home {
+        display: none;
+    }
+}
+
+
 .brand {
     justify-content: flex-start;
     margin-left: 20px;

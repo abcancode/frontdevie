@@ -17,7 +17,7 @@
     </div>
     
     <nav class="navbar">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="index.php" id="home">Home</a>
             
             <?php if(!isset($_SESSION['loggedIn'])){ ?>
                 

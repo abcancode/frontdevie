@@ -23,7 +23,7 @@ if(isset($_SESSION['loggedIn']) &&  ($_SESSION['loggedIn'])){
         </p>
         <div class="centered_content">
 
-            <h3>Login to your Account</h3>
+            <h3 class="headings">Login to your Account</h3>
 
             <p>Please login to your FrontDevie account</p>
 
