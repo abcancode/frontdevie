@@ -59,8 +59,15 @@ if(isset($_SESSION['loggedIn']) &&  ($_SESSION['loggedIn'])){
     </div>
             <div class="register_contents">
                 <p>
-                    <a class="forgot" href="forgot.php">Forgot Password</a><br />
+
+                    <a class="forgot" href="forgot.php">Forgot Password</a>
+
+                </p>
+
+                <p>
+
                     <a class="register" href="register.php">Don't have an account? Register</a>
+                    
                 </p>
             </div>
             
