@@ -57,7 +57,7 @@ if($errorCount > 0){
         'phone'=>$phone,
         'gender' => $gender,
         'level' => $level,
-        'date'=>date("Y/m/d"),
+        'date'=>date("d/m/Y"),
         'time'=>date("h:i:sa")             
     ];
 

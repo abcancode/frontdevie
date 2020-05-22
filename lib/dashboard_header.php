@@ -19,8 +19,8 @@
     
     <nav class="navbar">
             <!--<a class="nav-link" href="index.php">Home</a>-->
-            <a class="nav-link">Welcome, <?php echo $_SESSION['first_name'] ." ". $_SESSION['last_name'] ?> </a> 
-            <a class="nav-link"><?php echo $_SESSION['email'] ?> </a> 
+            <a class="nav-link" id="welcome">Welcome, <?php echo $_SESSION['first_name'] ." ". $_SESSION['last_name'] ?> </a> 
+            <a class="nav-link" id="email"><?php echo $_SESSION['email'] ?> </a> 
             <?php if(!isset($_SESSION['loggedIn'])){ ?>
 
                 <!--<a class="btn btn-success" href="admin.php">Admin</a>-->
@@ -28,7 +28,7 @@
             <?php }else{ ?>
                             
                 <!--<a class="p-2 text-dark" href="dashboard.php">Dashboard</a> -->               
-                <a class="nav-link" href="reset.php">Reset Password</a>
+                <a class="nav-link" href="reset.php" id="reset">Reset Password</a>
                 <a class="nav-link" href="logout.php">Logout</a>
             <?php } ?>
           

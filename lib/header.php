@@ -12,11 +12,12 @@
 <body>
 
 <div class="header">
+    
     <div class="brand">
         <h2><a href="index.php" class="logo">FrontDevie</a></h2>
     </div>
     
-    <nav class="navbar">
+        <nav class="navbar">
             <a class="nav-link" href="index.php" id="home">Home</a>
             
             <?php if(!isset($_SESSION['loggedIn'])){ ?>

@@ -24,12 +24,18 @@ if(!isset($_SESSION['loggedIn'])){
 
                     <ul>
 
-                        <li>Full Name: <?php echo $_SESSION['first_name'] ." ". $_SESSION['last_name'] ?> </li>
+                        <li>Last Name: <?php echo $_SESSION['last_name'] ?> </li>
+                        <li>First Name: <?php echo $_SESSION['first_name'] ?></li>
                         <li>Email: <?php echo $_SESSION['email'] ?></li>
-                        <li>Current Level: <?php echo $_SESSION['level'] ?></li>                       
-                        <li>ID: <?php echo $_SESSION['loggedIn'] ?> </li>
-
+                        <li>Current Level: <?php echo $_SESSION['level'] ?></li> 
+                        <li>Date Account Created: <?php echo $_SESSION['date'] ?></li>
+                        <li>Time Account Created: <?php echo $_SESSION['time'] ?></li>                        
+                    
                     </ul>
+                    
+                    <br />
+
+                    <p class="happy-coding"><strong>Happy Coding! &#128522</strong></p>
 
                 </div>
 
@@ -47,8 +53,10 @@ if(!isset($_SESSION['loggedIn'])){
 
                 <h4>Welcome Message</h4>
 
-                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You will recieve a mail shortly in the email you provided while registering for next steps, kindly check for that. The program would last for 12 weeks and we expect that you'll put in work so you can get the very best out of the program. Please make payment to the account details below and ensure you keep a copy of your reciept.<br />
+                <p>Hi,  <?php echo $_SESSION['first_name'] ?>. We're so delighted to have you on board. You will recieve a mail shortly in the email you provided while registering for next steps, kindly check for that. The program would last for 12 weeks and we expect that you'll put in work so you can get the very best out of the program. Please make payment to the account details that would also be sent into your email and ensure you keep a copy of your receipt.<br />
                 
+                <p class="happy-coding"><strong>Happy Coding! &#128522</strong></p>
+
                 </p>
             
             </div>
@@ -77,6 +85,10 @@ if(!isset($_SESSION['loggedIn'])){
                         <li>jQuery</li>
                         
                     </ul>
+
+                    <br />
+
+                    <p class="happy-coding"><strong>Happy Coding! &#128522</strong></p>
                 
                 </div>
 
@@ -95,10 +107,18 @@ if(!isset($_SESSION['loggedIn'])){
                 <h4>Tasks</h4>
 
                 <p class="task_content">There are no tasks just yet. Please check back!</p>
-            
-            </div>
+
+
+                <br />            
+
+                <p class="happy-coding"><strong>Happy Coding! &#128522</strong></p>
 
             </div>
+
+
+            </div>
+            
+            
 
         </div>
 

@@ -3,6 +3,7 @@
         
     </p>
 
+    <!-- TODO: FIX THE SPINNER -->
     <!-- Preloader -->
 
     <div class="spinner"></div>

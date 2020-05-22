@@ -56,6 +56,23 @@ body{
     color: rgb(33, 101, 156);
 }
 
+@media only screen and (max-width: 992px){
+
+    #email {
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px){
+
+    #welcome {
+        display: none;
+    }  
+}
+
+
 .brand {
     justify-content: flex-start;
     margin-left: 20px;
@@ -141,6 +158,10 @@ p {
     line-height: 2;
 }
 
+.happy-coding {
+    text-align: center;
+}
+
 /* Footer */
 
 footer {
@@ -162,3 +183,4 @@ span {
     text-align: center;
     margin-top: 100px;
 }
+

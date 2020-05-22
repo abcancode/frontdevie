@@ -18,6 +18,8 @@
     
     <nav class="navbar">
             <!--<a class="nav-link" href="index.php">Home</a>-->
+            <a class="nav-link" href="login.php">Login</a>
+            <a class="nav-link" href="register.php">Register</a>
             
             <?php if(!isset($_SESSION['loggedIn'])){ ?>
                 
